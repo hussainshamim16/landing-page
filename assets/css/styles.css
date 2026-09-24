@@ -1260,8 +1260,7 @@ div#reviewsTrack:after {
     font-family: var(--font-display);
     font-weight: 600;
     font-size: 1.125rem;
-    letter-spacing: -.03em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 1.1;
     white-space: normal
 }
@@ -1811,7 +1810,7 @@ div#reviewsTrack:after {
     }
 
     .estimate-card .btn {
-        min-height: 46px
+        min-height: unset;
     }
 
     .trust-bar {
@@ -1878,9 +1877,9 @@ div#reviewsTrack:after {
     }
 
     .btn-group .btn {
-        flex: 1 1 100%;
+        flex: unset;
         justify-content: center;
-        min-height: 44px
+        min-height: unset;
     }
 
     .count-on-copy .btn-group,
@@ -1958,9 +1957,6 @@ div#reviewsTrack:after {
         gap: 14px
     }
 
-    .count-on .btn-group .btn {
-        flex: 0;
-    }
 
     .count-on-copy .btn-group {
         align-items: stretch;
@@ -2221,6 +2217,23 @@ div#reviewsTrack:after {
     .site-header .header-phone{
             font-size: 0.8rem;
     }
+    .footer-item{
+        padding: 0px ;
+    }
+    .btn {
+    gap: 2px;
+    padding: 5px 9px;
+    font-size: 10px;
+    }
+    .btn-group{
+    align-items: flex-start !important;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    gap: 10px;
+    }
+    .trust-logos img {
+        height: 30px;
+    }
 }
 
 @media (hover:none) {
@@ -2272,12 +2285,12 @@ div#reviewsTrack:after {
 }
 
 h2 {
-    word-spacing: 5px;
+    word-spacing: 2px;
     text-transform: capitalize !important;
 }
 .poweredby{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 5px;
+    gap: 3px;
 }
