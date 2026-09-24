@@ -203,7 +203,7 @@ textarea {
 
 .btn,
 .header-phone {
-    font-weight: 500;
+    font-weight: 300;
     font-family: var(--font-display)
 }
 
@@ -525,7 +525,7 @@ textarea {
 }
 
 .trust-logos img {
-    height: 48px;
+    height: 50px;
     width: auto;
     object-fit: contain;
     opacity: .9
@@ -565,7 +565,6 @@ textarea {
     gap: 20px;
     overflow-x: auto;
     padding-bottom: 8px;
-    position: relative;
 }
 
 div#reviewsTrack:after {
@@ -1025,7 +1024,7 @@ div#reviewsTrack:after {
 }
 
 .count-on {
-    background: var(--gray);
+    background:  #dddddd;
     padding: 0
 }
 
@@ -1036,7 +1035,8 @@ div#reviewsTrack:after {
 
 .count-on-media {
     position: relative;
-    background: #ddd
+    background: #ddd;
+    max-width: 800px;
 }
 
 .count-on-media>img.main {
