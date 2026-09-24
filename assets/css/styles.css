@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 .section-title,
 .skip-link {
     font-family: var(--font-display)
@@ -87,7 +89,8 @@ img {
     --radius-xll: 20px;
     --container: 1160px;
     --pad: 140px;
-    --font-display: "Outfit", system-ui, sans-serif;
+    /* --font-display: "Outfit", system-ui, sans-serif; */
+    --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
     --font-body: "Poppins", system-ui, sans-serif;
     --shadow-card: 0 4px 8px rgba(17, 17, 17, 0.1);
     --ease: cubic-bezier(0.22, 1, 0.36, 1)
@@ -197,7 +200,7 @@ textarea {
 
 .section-title {
     font-weight: 600;
-    font-size: clamp(1.75rem, 3.5vw, 2.70rem);
+    font-size: clamp(1.75rem, 3.5vw, 2.50rem);
     line-height: 1.1
 }
 
@@ -1493,7 +1496,8 @@ div#reviewsTrack:after {
     backdrop-filter: blur(5px);
     border-radius: var(--radius-xl);
     padding: 26px;
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    z-index: 2;
 }
 
 .final-card h2 {
@@ -1539,9 +1543,9 @@ div#reviewsTrack:after {
 .footer-item {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 5px;
     font-size: .875rem;
-    padding: 0px 18px;
+    padding: 0px 15px;
 }
 
 .footer-item img {
@@ -2265,4 +2269,15 @@ div#reviewsTrack:after {
 .hero-inner {
     position: relative;
     z-index: 2
+}
+
+h2 {
+    word-spacing: 5px;
+    text-transform: capitalize !important;
+}
+.poweredby{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
 }
